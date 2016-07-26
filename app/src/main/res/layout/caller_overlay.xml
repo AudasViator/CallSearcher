@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout android:id="@+id/overlay_layout"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:orientation="vertical">
 
-	<TextView
-		android:text="TEST-TEST-TEST"
-		android:id="@+id/overlay_title_text_view"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:background="@color/colorPrimaryDark"
-		android:gravity="center"
-		android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/overlay_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#757575"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="21sp"
+        tools:text="Достаточно длинный текст, чтобы проверить переносы и всё такое"/>
+
+    <TextView
+        android:id="@+id/overlay_content_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#757575"
+        android:gravity="center"
+        android:textColor="#f5f5f5"
+        android:textSize="14sp"
+        tools:text="Совсем уж длинный текст, чтобы проверить переносы, размеры и всё такое"/>
 
 </LinearLayout>

@@ -7,7 +7,9 @@ import android.telephony.TelephonyManager;
 
 import java.util.Date;
 
-public abstract class PhoneCallReceiver extends BroadcastReceiver {
+// Нагло украден из интернета
+// По сути получает интент, смотрит на его Extras и дёргает нужный метод
+public abstract class AbstractCallReceiver extends BroadcastReceiver {
 
     //The receiver will be recreated whenever android feels like it.  We need a static variable to remember data between instantiations
 
