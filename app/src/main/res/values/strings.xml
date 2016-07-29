@@ -1,4 +1,11 @@
 <resources>
-	<string name="app_name">CallSearcher</string>
-	<string name="overlay_error">Error!</string>
+    <string name="app_name">CallSearcher</string>
+    <string name="overlay_error">Error!</string>
+    <string name="permission_alert_message">Для моей работы нужны разрешения. Разрешишь?</string>
+    <string name="permission_alert_button_allow">Конечно</string>
+    <string name="permission_alert_button_deny">Не</string>
+    <string name="permission_alert_title">Привет. Я - албанский вирус</string>
+    <string name="toast_never_ask">Зря ты ничего не разрешил, ищи теперь настройки</string>
+    <string name="toast_denied">Э, перезапусти и разреши!</string>
+    <string name="activity_main_pain">Раз ты ничего не разрешил, то смотри на меня</string>
 </resources>
